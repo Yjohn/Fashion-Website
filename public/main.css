@@ -1,0 +1,41 @@
+body{
+    background: #fffffa;
+}
+header{
+    width: 100%;
+    overflow: hidden;
+    background: #252932;
+    margin-bottom: 10px;
+}
+.wrapper{
+    width:100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow:hidden;
+}
+.form-control{
+    float:right;
+    width:40%;
+    padding: 10px 10px;
+}
+header nav  {
+    float:right;
+}
+header nav  a {
+    display: inline-block;
+    color:#fff;
+    text-decoration: none;
+    padding: 10px 10px;
+    line-height: normal;
+    font-size: 10px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    transition:all 500ms ease;
+
+}
+
+header nav a:hover {
+background: #f56f3a;
+border-radius: 50px;
+}
