@@ -1,0 +1,27 @@
+{
+  "name": "fashion-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cardona6/Fashion-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cardona6/Fashion-Website/issues"
+  },
+  "homepage": "https://github.com/cardona6/Fashion-Website#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDendencies":{
+      "nodemon": "^1.11.0"
+  }
+}

@@ -1,6 +1,8 @@
 body{
     background: #fffffa;
 }
+/*wrapper*/
+
 header{
     width: 100%;
     overflow: hidden;
@@ -38,4 +40,17 @@ header nav  a {
 header nav a:hover {
 background: #f56f3a;
 border-radius: 50px;
+}
+
+/*MAIN*/
+
+.main {
+    margin:40px 0;
+}
+.main .thumb {
+    margin-bottom: 20px;
+}
+.main ,thumb img {
+    width:100%;
+    vertical-align: top;
 }
