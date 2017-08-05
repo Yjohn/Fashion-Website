@@ -9,6 +9,12 @@ header{
     background: #252932;
     margin-bottom: 10px;
 }
+.logo img {
+    width: 100%;
+    max-width: 285px;
+    height: auto;
+    margin: 20px;
+}
 .wrapper{
     width:100%;
     max-width: 1000px;
@@ -19,6 +25,8 @@ header{
     float:right;
     width:40%;
     padding: 10px 10px;
+    margin-right: 20px;
+    margin-top: -95px;
 }
 header nav  {
     float:right;
