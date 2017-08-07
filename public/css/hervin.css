@@ -1,39 +1,46 @@
-body{
+body {
     background: #fffffa;
 }
+
+
 /*wrapper*/
 
-header{
+header {
     width: 100%;
     overflow: hidden;
     background: #252932;
     margin-bottom: 10px;
 }
+
 .logo img {
     width: 100%;
     max-width: 285px;
     height: auto;
     margin: 20px;
 }
-.wrapper{
-    width:100%;
+
+.wrapper {
+    width: 100%;
     max-width: 1000px;
     margin: auto;
-    overflow:hidden;
+    overflow: hidden;
 }
-.form-control{
-    float:right;
-    width:40%;
+
+.form-control {
+    float: right;
+    width: 40%;
     padding: 10px 10px;
     margin-right: 20px;
     margin-top: -95px;
 }
-header nav  {
-    float:right;
+
+header nav {
+    float: right;
 }
-header nav  a {
+
+header nav a {
     display: inline-block;
-    color:#fff;
+    color: #fff;
     text-decoration: none;
     padding: 10px 10px;
     line-height: normal;
@@ -41,24 +48,41 @@ header nav  a {
     font-weight: bold;
     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
-    transition:all 500ms ease;
-
+    transition: all 500ms ease;
 }
 
 header nav a:hover {
-background: #f56f3a;
-border-radius: 50px;
+    background: #f56f3a;
+    border-radius: 50px;
 }
+
 
 /*MAIN*/
 
 .main {
     margin: 0px;
 }
+/* 
 .main .thumb {
     margin-bottom: 20px;
 }
-.main ,thumb img {
-    width:100%;
+
+/* .main,
+thumb img {
+    width: 100%;
     vertical-align: top;
+} */
+
+.products {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+}
+.thumb{
+    margin: 2px;
+}
+.thumb img {
+    width: 93%;
+    height: 150px;
 }
