@@ -1,6 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
     color: #333333;
+    background: #fffffa;
 }
 h1, h2, h3, h4, h5, h6, .main-row .nav a {
     text-transform: uppercase;

@@ -3,13 +3,16 @@
         border: 1px solid black;
     }
 */
+.container{
+    background: #fffffa;
+}
     .body {
         background-color: #f4faf6;
     }
 
     .row {
         list-style: none;
-        padding: 18px;
+        padding: 30px 20px;
     }
 
     .navbar {
