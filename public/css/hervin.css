@@ -100,9 +100,6 @@
     max-height: 188px;
     }
 
-    .thumb:hover {
-   outline: 5px solid green;
-    }
    p {
    text-align: center;
    color: black;
