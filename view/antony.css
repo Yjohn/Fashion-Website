@@ -1,0 +1,80 @@
+
+.container{
+  width: 80%;
+  float: left;
+  background-color:f4faf6;
+  margin:20px;
+  padding: 30px;
+    }
+
+    .image{
+      float: left;
+      position: relative;      
+    }
+
+    .review{
+    width: 60%;
+    border: 1px solid black;
+    padding: 4px;
+    margin: 7px;
+    }
+    
+    .review1{
+    width: 40%;
+    border: 1px solid black;
+    padding: 4px;
+    margin: 7px;
+    }
+li {
+  float:none;
+  display: inline-block;
+  padding: 8px;
+}
+.fashion1{
+  background-color:#1eb8c0;
+  margin: 10px;
+  padding: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+
+}
+.fashion2{
+  background-color:whitesmoke;
+  margin: 10px;
+  padding: 40px;
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  
+}
+
+
+.nav-buttons.hover{
+  background-color: red;
+}
+
+
+h1 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+  h1 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%;
+  }
+.nav{
+background-color:#9edae9;
+font-weight: 100;
+}
+.a:hover{
+background-color: #1eb8c0;
+}
