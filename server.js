@@ -3,7 +3,6 @@ const app = express();
 const exphbs = require('express-handlebars');
 const fs = require("fs");
 // const readPosts = require('./helpers/readPosts');
-fs.readFile("test.txt", 'utf8', ((err,fileContents) => console.log(fileContents)));
 
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
