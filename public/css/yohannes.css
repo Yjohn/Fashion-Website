@@ -6,9 +6,12 @@
     background-color: #f4faf6;
 }
 
-.row {
-    list-style: none;
-    padding: 10px 20px;
+.main-row .col{
+    padding: 12px 12px;
+    margin: 10px 10px;
+    background-color: #9edae9;
+    text-decoration: none;
+    color: black;
 }
 
 .navbar {
@@ -17,82 +20,24 @@
     padding: 10px;
 }
 
-.navbar a {
-    text-decoration: none;
+.images {
+    width: 100%;
+    position: relative;
+    margin: 5px;
+    padding: 3px 30px;
+}
+
+a {
     color: black;
-    padding: 10px 10px;
-    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .main-row {
     list-style: none;
     padding: 20px 20px;
 }
-
-.nav {
-    list-style: none;
-    display: inline;
-    padding: 12px 16px;
-    margin: 4px 12px;
-    background-color: #9edae9;
-}
-
-.nav a {
-    text-decoration: none;
-    color: black;
-    padding: 14px 14px;
-    font-size: 18px;
-}
-
-.layout {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-    background-color: #deefe2;
-}
-
-article {
-    width: 25%;
-}
-
-.mainPage {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-
-.image {
-    position: relative;
-    margin: 5px;
-    padding: 3px 30px;
-}
-
-.image1 {
-    position: relative;
-    margin: 5px;
-}
-
-.image2 {
-    position: relative;
-    margin: 5px;
-    padding: 3px 30px;
-}
-
-.image3 {
-    position: relative;
-    margin: 5px;
-    padding: 3px 30px;
-}
-
-.image4 {
-    position: relative;
-    margin: 5px;
-    padding: 3px 30px;
-}
-
-h2,
+ h2,
 h3 span {
     color: white;
     font: 28px sans-serif, serif;
@@ -100,42 +45,41 @@ h3 span {
     text-align: center;
     font-size: 2rem;
     line-height: 1.5;
-}
+} 
 
 .textOverImage {
     position: absolute;
-    top: 150px;
+    top: 100px;
     left: 60px;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.2);
-    padding: 40px 60px;
 }
 
 .textOverImage1 {
     position: absolute;
-    top: 325px;
+    top: 350px;
     background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.3);
-    padding: 15px 55px;
-    margin: 10px 20px;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px 50px;
+    margin: 10px 50px;
 }
 
 .textOverImage2 {
     position: absolute;
-    top: 170px;
+    top: 190px;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.2);
-    padding: 12px 25px;
-    margin: 10px 20px;
+    padding: 12px 30px;
+    margin: 10px 60px;
 }
 
 .textOverImage3 {
     position: absolute;
-    top: 250px;
+    top: 270px;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.2);
     padding: 25px 35px;
-    margin: 10px 25px;
+    margin: 10px 60px;
 }
 
 .textOverImage4 {
@@ -143,8 +87,8 @@ h3 span {
     top: 100px;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.2);
-    padding: 2px 0px;
-    margin: 10px 20px;
+    padding: 20px 25px;
+    margin: 50px 60px;
 }
 
 button {
@@ -154,36 +98,11 @@ button {
     color: white;
     background-color: #1eb8c0;
 }
-
-.secondmain {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-
-.saleText {
+ .saleText {
     margin: 5px 15px;
     background-color: #9edae9;
     padding: 40px 40px;
-}
-
-
-/*ADDED FLEX TO MEDIA QUERY */
-
-
-/* @media screen and (max-width: 720px) {
-        .main-row {
-            flex-direction: column;
-            width: 50%;
-        }
-        .mainPage{
-            width: 50%;
-        }
-        .secondmain {
-            width: 50%;
-        }
-    }  */
-
+}  
 .about {
     background-color: #9edae9;
     width: 100%;
@@ -197,4 +116,13 @@ button {
     font: 17px sans-serif, serif;
     font-weight: 100;
     line-height: 2;
+}
+
+@media (min-width: 576px){
+.container{
+    width: 540px;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 }
