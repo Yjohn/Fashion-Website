@@ -6,7 +6,7 @@
     background-color: #f4faf6;
 }
 
-.main-row .col-md-4{
+.main-row .col{
     padding: 12px 12px;
     margin: 10px 10px;
     background-color: #9edae9;
@@ -116,4 +116,13 @@ button {
     font: 17px sans-serif, serif;
     font-weight: 100;
     line-height: 2;
+}
+
+@media (min-width: 576px){
+.container{
+    width: 540px;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 }
