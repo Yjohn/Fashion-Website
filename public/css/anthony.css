@@ -85,3 +85,21 @@
    justify-content: space-between;
    border: 1px solid black;
  }
+
+ /* Footer */
+ .footer-wrapper {
+   margin-top: 50px;
+   padding-top: 50px;
+   background-image: url(../images/fotogranf.jpg);
+ }
+ .footer-wrapper .container {
+ background-color: transparent;
+ }
+ .footer-wrapper .row {
+margin-top: 50px;
+ }
+ .footer-wrapper a{
+   color: white;
+   padding-bottom: 10px;
+   display: block;
+ }
