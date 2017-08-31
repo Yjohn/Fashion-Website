@@ -1,6 +1,9 @@
      body {
          background: #fffffa;
      }
+    img {
+      max-width: 100%;
+    }
 
  /*wrapper*/
   

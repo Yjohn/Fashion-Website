@@ -105,9 +105,9 @@ button {
 }  
 .about {
     background-color: #9edae9;
-    width: 100%;
-    padding: 50px 100px;
+    width: 100%;  
     margin: 5px 32px;
+    padding: 20px;
 }
 
 .about p {
@@ -117,3 +117,11 @@ button {
     font-weight: 100;
     line-height: 2;
 }
+
+
+
+ @media screen and (min-width:600px) {
+     .about {
+      padding: 50px 100px;
+     }
+ }
